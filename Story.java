@@ -5,7 +5,7 @@ public class Story{
   
   public void getStory(Player p, Friend f, Her h){
     System.out.println("");
-    System.out.println("You are a high school student. Your best friend is " + f.getName() +". Like most high school students do, you have liked a girl in school for a long time. Her name is " + h.getName() + ". She is cute. She is a good student, and she is good at vollyball. There are 30 more days to College Entrance Examination. After 30 days, you are planning to tell her your affection. Before that, do your best to attract her.(ง •_•)ง");
+    System.out.println("You are a high school student. Your best friend is " + f.getName() +". Like most high school students do, you have liked a girl in school for a long time. Her name is " + h.getName() + ". She is cute. She is a good student, and she is good at volleyball. There are 30 more days to College Entrance Examination. After 30 days, you are planning to tell her your affection. Before that, do your best to attract her.(ง •_•)ง");
   }
   
   public void getEnd(Player p, Friend f, Her h, Agirl a){

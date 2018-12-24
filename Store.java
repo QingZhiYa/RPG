@@ -38,7 +38,7 @@ public class Store extends Place{
   
   public void meetSomeone(Player p, Friend f, Her h, Agirl a){
     int b = (int)(Math.random()*10);
-    if(b < 1 && p.getMoney()>4){
+    if(b < 1 && p.getMoney()>=10){
       System.out.println("Your wallet was stolenΣ(っ °Д °;)っ.(Money -10)");
       p.addMoney(-10);
     }else if(b < 1 && p.getMoney()<10){
